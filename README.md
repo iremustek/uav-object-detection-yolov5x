@@ -1,14 +1,14 @@
 # UAV Object Detection using transfer learning with YOLOv5x [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iremustek/uav-object-detection-yolov5x/blob/main/uav-object-detection_yolov5x.ipynb)
 
-- All work is done through Google Colab with a GPU  (NVIDIA-SMI 525.85.12, CUDA Version: 12.0)
+This project focuses on performing UAV object detection using transfer learning with YOLOv5x. The work is conducted on Google Colab, utilizing a GPU for accelerated computations (NVIDIA-SMI 525.85.12, CUDA Version: 12.0).
 
-- The related notebook can be found here: [![ Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iremustek/uav-object-detection-yolov5x/blob/main/uav-object-detection_yolov5x.ipynb)
+ [![ Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iremustek/uav-object-detection-yolov5x/blob/main/uav-object-detection_yolov5x.ipynb)
 
 ## Dataset
 
-Dataset includes:
-- images: 314 different drone images
-- labels: id and bounding box information of each images [id x y width height]
+The dataset consists of the following components:
+- images: A collection of 314 diverse drone images.
+- labels: Each image is annotated with an ID and bounding box information, specifying the position and dimensions of detected objects in the images (format: [ID, x, y, width, height]).
 
 ## Folder Tree 
 
