@@ -14,6 +14,7 @@ Dataset includes:
 
 After the train-test-validation split is done, the overall folder tree will be like that:
 
+```
 └── uav-object-detection-yolov5x /
     ├── data/
     │   ├── images/
@@ -25,4 +26,4 @@ After the train-test-validation split is done, the overall folder tree will be l
     │       ├── test
     │       └── val   
     └── uav-object-detection-yolov5x.ipynb
-
+```
