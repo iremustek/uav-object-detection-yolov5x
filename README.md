@@ -4,3 +4,25 @@
 
 - The related notebook can be found here: [![ Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iremustek/uav-object-detection-yolov5x-ssd/blob/main/uav-object-detection.ipynb)
 
+## Dataset
+
+Dataset includes:
+- images: 314 different drone images
+- labels: id and bounding box information of each images [id x y width height]
+
+## Folder Tree 
+
+After the train-test-validation split is done, the overall folder tree will be like that:
+
+└── uav-object-detection-yolov5x /
+    ├── data/
+    │   ├── images/
+    │   │   ├── train
+    │   │   ├── test
+    │   │   └── val
+    │   └── labels/
+    │       ├── train
+    │       ├── test
+    │       └── val   
+    └── uav-object-detection-yolov5x.ipynb
+
